@@ -1,6 +1,5 @@
 //callback = una funcion que se pasa como argumento a otra funcion
 
-programando(descansando);
 programando(debugueando);
 
 
