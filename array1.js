@@ -35,8 +35,9 @@ for (let i = 0; i<frutas.length;i++){
 }
 
 
-console.log("Esto es una practica de javascript.");
-console.log("Es dificil estudiar cuando trabajas tiempo completo.");
-console.log("Pasas 12:30 horas fuera de casa.");
-console.log("La vida no fue hecha para perdedores.");
-console.log("Se que debo seguir haciendo el mejor esfuerzo.");
+let frutaArray= ["manzana","pera","lima","bananas"];
+
+for (fruta of frutaArray){
+    console.log(" ");
+    console.log("nuevo arreglo de frutas : " + fruta);
+}
