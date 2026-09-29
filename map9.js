@@ -19,6 +19,11 @@ const usuarios = [
     direccion: { ciudad: "San Salvador", pais: "El Salvador" },
     activo: true,
   },
+  {
+    nombre: "Alfredo",
+    direccion: { ciudad: "Bogotá", pais: "Colombia" },
+    activo: false,
+  },
 ];
 
 const nuevoUsuario = usuarios.map((user) => {
